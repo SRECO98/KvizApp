@@ -1,0 +1,50 @@
+Which one is the first search engine in internet ?
+Google
+*****Archie
+Altavista
+WAIS
+Number of bit used by the IPv6 address ?
+32 bit
+64 bit
+*****128 bit
+256 bit
+Which of the following programming language is used to create programs like applets ?
+COBOL
+C Language
+*****Java
+BASIC
+First computer virus is known as ?
+Rabbit
+*****Creeper Virus
+Elk Cloner
+SCA Virus
+Which one programming language is exclusively used for artificial intelligence ?
+C Language
+Java
+J2EE
+*****Prolog
+Firewall in computer is used for ?
+*****Security
+Data Transmission
+Authentication
+Monitoring
+Number of layers in the OSI (Open Systems Interconnection) Model ?
+9
+3
+*****7
+11
+1024 bit is equal to how many byte ?
+1 Byte
+*****128 Byte
+32 Byte
+64 Byte
+Computer Hard Disk was first introduced in 1956 by ?
+Dell
+Apple
+Microsoft
+*****IBM
+Which protocol is used to received e-mail ?
+SMTP
+*****POP3
+HTTP
+FTP

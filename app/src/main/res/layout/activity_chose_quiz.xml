@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_first"
+    tools:context=".startquiz.chosequizlogic.ChooseQuiz">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/diplomata_sc"
+        android:gravity="center"
+        android:text="@string/chose_your_quiz"
+        android:textAllCaps="false"
+        android:textColor="#E8DC02"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+
+    <TextView
+        android:id="@+id/blackline"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/yellowLine1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="160dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/yellowLine2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine1" />
+
+    <TextView
+        android:id="@+id/yellowLine3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine2" />
+
+    <TextView
+        android:id="@+id/yellowLine4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine3"/>
+
+    <TextView
+        android:id="@+id/yellowLine5"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine4"/>
+
+    <TextView
+        android:id="@+id/yellowLine6"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine5"/>
+
+    <TextView
+        android:id="@+id/yellowLine7"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine6"/>
+
+    <TextView
+        android:id="@+id/yellowLine8"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine7"/>
+
+    <TextView
+        android:id="@+id/yellowLine9"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine8"/>
+
+    <TextView
+        android:id="@+id/yellowLine10"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine9"/>
+
+    <TextView
+        android:id="@+id/yellowLine11"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine10"/>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blackline">
+
+        <ListView
+            android:id="@+id/customListviewNames"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp"
+            android:layout_weight="3"
+            android:divider="#04BF9A"
+            android:dividerHeight="2.2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <ListView
+            android:id="@+id/customListviewResults"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp"
+            android:layout_weight="1"
+            android:divider="#04BF9A"
+            android:dividerHeight="2.2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

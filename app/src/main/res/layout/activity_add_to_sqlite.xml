@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_first"
+    tools:context=".startquiz.game_logic.QuizLogic">
+
+    <TextView
+        android:id="@+id/textviewNameOfNewQuiz"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/diplomata_sc"
+        android:gravity="center"
+        android:text="@string/xxxx"
+        android:textColor="#E8DC02"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/diplomata_sc"
+        android:gravity="center"
+        android:text="@string/add_questionstr"
+        android:textColor="#E8DC02"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/currentQuestion"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/diplomata_sc"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:text="@string/x"
+        android:textColor="#E8DC02"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/blackline"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/yellowLine1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="200dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/yellowLine2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine1" />
+
+    <TextView
+        android:id="@+id/yellowLine3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine2" />
+
+    <TextView
+        android:id="@+id/yellowLine4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine3"/>
+
+    <TextView
+        android:id="@+id/yellowLine5"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine4"/>
+
+    <TextView
+        android:id="@+id/yellowLine6"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine5"/>
+
+    <TextView
+        android:id="@+id/yellowLine7"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine6"/>
+
+    <TextView
+        android:id="@+id/yellowLine8"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#E8DC02"
+        android:rotationX="200"
+        android:rotationY="60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yellowLine7"/>
+
+    <TextView
+        android:id="@+id/blackline2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/box0"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:text="@string/q"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/blackline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/box1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/_1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/box_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blackline2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/box2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/_2"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/box_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/box3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/_3"
+        android:textColor="#ffffff"
+        android:background="@drawable/box_background"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/box4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/_4"
+        android:textColor="#ffffff"
+        android:background="@drawable/box_background"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box3" />
+
+    <EditText
+        android:id="@+id/editTextAnswer1"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:hint="@string/answer_1"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toEndOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/blackline2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextAnswer2"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:hint="@string/answer_2"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toEndOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnswer1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextAnswer3"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:hint="@string/answer_3"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toEndOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnswer2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextAnswer4"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/box_background"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:hint="@string/answer_4"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toEndOf="@+id/box1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnswer3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:inputType="text"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/box_background"
+        android:gravity="start|clip_vertical"
+        android:hint="@string/question_here"
+        android:textAlignment="inherit"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/blackline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/box0"
+        app:layout_constraintTop_toBottomOf="@+id/blackline"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addQuestionNewQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/box_background"
+        android:text="@string/addquestion_buton"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAnswer4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+What number doesn’t have its own Roman numeral?
+5
+1001
+312
+*****0
+What is the only even prime number?
+*****2
+8
+12
+22
+Which number is the sum of its multiples when you add the single digits together?
+*****9
+7
+6
+3
+What letter does every odd number have in it?
+a
+u
+*****e
+i
+What is the square root of 144?
+13
+*****12
+14
+16
+What is five to the power of zero?
+25
+5
+*****1
+0
+How many seconds are in one day?
+84.200
+92.400
+78.800
+*****86.400
+When was the equal sign invented?
+1562 by Robert Recorde
+*****1557 by Robert Recorde
+1566 by Robert Recorde
+1558 by Robert Recorde
+What is 8x4.1 ?
+32,0
+32,4
+33,4
+*****32,8
+What is 12th Fibonacci number ?
+99
+144
+*****89
+55

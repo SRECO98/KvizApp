@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Trivia Quiz</string>
+    <string name="kviz_app">Quiz App</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="add_question">Add Question</string>
+    <string name="exit_game">Exit Game</string>
+    <string name="warning">Warning!</string>
+    <string name="exit_game_dialog">Exit Game ?</string>
+    <string name="yes_exit_dia">Yes</string>
+    <string name="no_exit_dia">No</string>
+    <string name="warningsign">warningSign</string>
+    <string name="q">Q</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="points">Points:</string>
+    <string name="x">0</string>
+    <string name="question_here">Question here…</string>
+    <string name="answer_2">Answer 2…</string>
+    <string name="answer_3">Answer 3…</string>
+    <string name="answer_4">Answer 4…</string>
+    <string name="addquestion_buton">Add</string>
+    <string name="answer_1">Answer 1…</string>
+    <string name="add_questionstr">Add question:</string>
+    <string name="chose_your_quiz">Choose Your Quiz</string>
+    <string name="press_ok_to_start_new_quiz">Press ok to start new quiz</string>
+    <string name="ok">OK</string>
+    <string name="your_score">Your Score</string>
+    <string name="number_of_questions">Number of questions:</string>
+    <string name="name_of_quiz">Name of quiz</string>
+    <string name="xxxx">XXXX</string>
+    <string name="cancel">CANCEL</string>
+    <string name="your_quiz">Your Quiz</string>
+</resources>

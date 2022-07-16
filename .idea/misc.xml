@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/background_first.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/backgroundbuttons.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/box_background.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/buttons_dialog.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/dialog_background.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/line.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/line_yellow.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/warning_background.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/warning_foreground.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_add_to_sqlite.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_chose_quiz.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_custom_list_view.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_quiz_logic.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/custom_dialog.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/mipmap-anydpi-v26/warning.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/mipmap-anydpi-v26/warning_round.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/box_background.xml" value="0.127" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/box_background_correct_answer.xml" value="0.1035" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/button_background_yellow_border.xml" value="0.1045" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/buttons_dialog.xml" value="0.1045" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/dialog_background.xml" value="0.1045" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/dialog_background_yellow_border.xml" value="0.1035" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/drawable/score_icon_logic_quiz_foreground.xml" value="0.1045" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_add_to_sqlite.xml" value="0.22" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_chose_quiz.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_custom_list_view.xml" value="0.1" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_quiz_logic.xml" value="0.1" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/activity_splash.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/custom_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/custom_dialog_add_quiz.xml" value="0.2128623188405797" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/custom_dialog_main.xml" value="0.2128623188405797" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/custom_dialog_quiz_logic.xml" value="0.1" />
+        <entry key="..\:/Users/Sreten/Desktop/Backup-27-5-22/User/AndroidStudioProjects/QuizMobilnoRacunarstvo/app/src/main/res/layout/custom_list_view_results.xml" value="0.10827250608272507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
